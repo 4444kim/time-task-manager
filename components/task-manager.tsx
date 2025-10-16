@@ -31,7 +31,7 @@ export function TaskManager() {
   });
 
   return (
-    <div className="p-4 md:p-6 lg:p-8">
+    <div className="min-h-screen bg-background p-4 md:p-6 lg:p-8">
       <div className="mx-auto max-w-[1800px]">
         <header className="mb-8 flex items-end justify-between gap-4 border-b border-border pb-4">
           <div>

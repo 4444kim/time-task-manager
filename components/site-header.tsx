@@ -19,6 +19,8 @@ export function SiteHeader() {
           <ThemeToggle />
         </div>
       </div>
+      {/* Active task indicator bar (subtle) */}
+      <div aria-hidden className="h-0.5 bg-primary/30" />
     </header>
   );
 }
